@@ -46,7 +46,7 @@ for(let x = 0; x < person.length; x++){
 //Completes instruction 11
 let result = getLength('Hello World');
 
-if(result % 2 == 0){
+if(result % 2 === 0){
     console.log("The world is nice and even!");
 }
 else {
